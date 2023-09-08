@@ -5,7 +5,7 @@ export default function Main() {
     return(
         <div className="main">
             <div className="image">
-                <img src="public/images/photo-grid.png" alt="" srcset="" />
+                <img src="images/photo-grid.png" alt="" srcset="" />
             </div>
             <div className="content">
                 <h1>Online Experience</h1>
