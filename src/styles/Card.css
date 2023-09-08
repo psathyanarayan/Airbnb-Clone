@@ -1,0 +1,85 @@
+.card-container{
+    max-width: 176px;
+    padding: 20px;
+    margin: 0;
+    flex: 0 0 auto;         /* ADD */
+
+}
+.card-img img{
+    max-width: 176px;
+    border-radius: 10px;
+}
+.card-img {
+    position: relative; /* Set the container to a relative position */
+  }
+  
+  .tag {
+    position: absolute; /* Position the "Sold Out" tag absolutely */
+    top: 0; /* Position it at the top */
+   max-height: 20px;
+   margin: 10px;
+   display: flex;
+    align-items: center;
+    left: 0; /* Position it at the left */
+    background-color: rgb(255, 255, 255); /* Background color for the tag */
+    color: rgb(0, 0, 0); /* Text color for the tag */
+    padding: 5px; /* Adjust padding as needed */
+  }
+  .tag p{
+    margin: 0;
+    font-size: 10.24px;
+    font-weight: lighter;
+    
+    
+  }
+  
+.card-body{
+    font-size: 12px;
+}
+.card-rating{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-height: 14px;
+    margin: 8px 0 0 0;
+
+}
+.card-rating img{
+    max-width: 14px;
+    margin-right: 3px;
+}
+.rating{
+    margin-right: 3px;
+    font-weight: lighter;
+    font-size: 12px;
+
+}
+.data{
+    font-weight: lighter;
+    color: #918E9B;
+}
+.card-data{
+    margin: 8px 0 0 0;
+    font-weight: lighter;
+    font-size: 12px;
+    
+}
+.card-cost{
+    margin: 0 0 0 0;
+    display: flex;
+    flex-direction: row;
+}
+.card-cost-bold{
+    margin: 8px 0 0 0;
+}
+.person{
+    margin: 8px 0 0 0;
+
+}
+.card-cost-bold{
+    font-weight: bold;
+}
+.person{
+    margin-left:4px;
+    font-weight: lighter;
+}
